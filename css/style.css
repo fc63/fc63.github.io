@@ -77,22 +77,6 @@ label {
 	border: 1px solid #4d0210;
 }
 
-#btnReset {
-	width: 121vh;
-	border-radius: 5px;
-	padding: 4px;
-	background: #0167BA;
-	border: none;
-	color: whitesmoke;
-	cursor: pointer;
-}
-
-#btnReset:hover {
-	border: 1px solid #0167BA;
-	background: transparent;
-	color: whitesmoke;
-}
-
 #arayuz {
 	width: 100vw; /* Viewport genişliğinin %100'ü */
     height: 100vh; /* Viewport yüksekliğinin %100'ü */
