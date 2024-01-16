@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background: #0A0837;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#gir {
+	display: flex;
+	background: rgba(0, 0, 0, 0.7);
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 0.5rem;
+	margin: auto;
+}
+
+input {
+	margin-top: 4px;
+	margin-bottom: 15px;
+	width: 100px;
+	height: 26px;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.7rem;
+	background: #f1f1f1;
+	color: black;
+}
+
+.ntf {
+	font-weight: 300;
+	font-size: 14px;
+	color: white;
+	color: red;
+	display: none;
+}
+
+.giris {
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 5%;
+	color: white;
+}
+
+label {
+	font-weight: 500;
+	font-size: 1rem;
+	color: white;
+}
+
+#btnLogin {
+	width: 130px;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	font-size: 0.7rem;
+	font-weight: 600;
+	background: #4d0210;
+	border: none;
+	color: whitesmoke;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+#btnLogin:hover {
+	background: transparent;
+	border: 1px solid #4d0210;
+}
+
+#btnReset {
+	width: 121vh;
+	border-radius: 5px;
+	padding: 4px;
+	background: #0167BA;
+	border: none;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+#btnReset:hover {
+	border: 1px solid #0167BA;
+	background: transparent;
+	color: whitesmoke;
+}
+
+#arayuz {
+	width: 100vw; /* Viewport genişliğinin %100'ü */
+    height: 100vh; /* Viewport yüksekliğinin %100'ü */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+}
+
+canvas {
+	background: rgb(249, 249, 249);
+}
