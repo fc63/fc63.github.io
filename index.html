@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Furkan'in Javascript Projesi</title>
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- sweetalert js -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!-- scriptler -->
+	<script src="js/login.js"></script>
+	<script src="js/arayuz.js"></script>
+</head>
+
+<body style="background-image: url('img/3fa69ce6-ca57-4f42-a349-e0fd86a4766b.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+	<div style="display: flex;">
+		<!-- canvas -->
+		<div id="arayuz">
+			<div id="myCanvas">
+				<p style="color: red; position: absolute; top: 90px; left: 340px;" id="name"></p>
+			</div>
+		</div>
+		<!-- login page -->
+		<div id="gir">
+			<div>
+				<form action="post">
+					<p class="giris">Login Page</p>
+					<label>Username</label>
+					<br>
+					<input type="text" id="username" placeholder="username" oninput="inputanUser()">
+					<!-- output -->
+					<p class="ntf" id="wrng_usr">Wrong Username</p>
+					<p class="ntf" id="entr_usr">Please Enter Your Username</p>
+					<!-- end -->
+					<br>
+					<label>Password</label>
+					<br>
+					<input type="password" id="password" placeholder="password" oninput="inputanPw()">
+					<!-- output salah -->
+					<p class="ntf" id="wrng_pw">Password Wrong</p>
+					<p class="ntf" id="entr_pw">Please Enter Your Password</p>
+					<!-- end -->
+					<br>
+					<button type="button" id="btnLogin" onclick="login()">LOGIN</button>
+				</form>
+			</div>
+		</div>
+		<!-- altalani -->
+		<div id="altalan"> </div>
+	</div>
+</body>
+
+</html>
