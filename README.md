@@ -2,4 +2,4 @@ Github pages üzerinde statik bir şekilde yer alan, javascript ile backenddeki 
 
 bütün sayfalar statik olarak javascript kodunun içerisinde yer alacak, script serverdan hangi sayfayı döndüreceği bilgisini alacak ve ona göre ilgili sayfayı kullanıcıya gösterecek. döndürülen sayfada kullanıcıya gösterilmesi gereken kullanıcı bilgileri vs. backend serverda sql'de tutulacak ve sayfa döndürüldükten sonra javascript bu bilgileri serverdan isteyecek, aldığı cevaba göre bu bilgileri kullanıcıya gösterecek vs. vs.
 
-![Onizleme Yuklenemedi]([Resmin URL'si](https://fc63.github.io/onizleme.png)https://fc63.github.io/onizleme.png)
+![Onizleme Yuklenemedi](https://fc63.github.io/onizleme.png)
